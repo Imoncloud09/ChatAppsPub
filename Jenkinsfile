@@ -4,7 +4,7 @@ pipeline {
         DOCKERHUB_CREDENTIALS = credentials('e1991516-ff53-4be1-a278-e1951422c0de') // DockerHub credentials
         DOCKER_IMAGE_NAME = 'halrshaldocker/ChatApp-V1' // Replace with your DockerHub repo
         GIT_REPO = 'https://github.com/Imoncloud09/ChatAppsPub.git'  // Replace with your GitHub repo
-        GIT_BRANCH = 'Dev' // Replace with the branch you want to build
+        GIT_BRANCH = 'master' // Replace with the branch you want to build
         DOCKER_IMAGE = "halrshaldocker/ChatApp-V1" // Replace with your image
         KUBERNETES_NAMESPACE = "default"               // Update for a specific namespace
         KUBE_CONFIG_CRED_ID = "k8s"                    // Jenkins credential ID for kubeconfig
